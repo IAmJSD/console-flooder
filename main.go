@@ -21,6 +21,6 @@ func main() {
 
 	for {
 		_, _ = os.Stdout.Write(text)
-		time.Sleep(time.Duration(every) * time.Second)
+		time.Sleep(time.Duration(every) * time.Millisecond)
 	}
 }
